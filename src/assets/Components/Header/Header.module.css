@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  padding: 10px 20px;
+  border-bottom: 0.5px solid rgb(35, 35, 35);
+}
+
+.Logo,
+.Exchanges,
+.About_Us {
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+  transition: color 0.3s;
+  background: none;
+  border: none;
+}
+
+.Logo {
+  color: transparent;
+  border: 0px;
+  font-size: 27px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#ccc;
+}
+
+.Exchanges {
+  color: transparent;
+  font-size: 20px;
+  margin-left: 30px;
+  color:#ccc;
+}
+
+.About_Us {
+  background: none;
+  color:#ccc;
+  font-size: 21px;
+  margin-right: 20px;
+}
+
+.SwitchLabel {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.Switch {
+  display: none;
+}
+
+.Slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.Slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.Switch:checked + .Slider {
+  background-color: rgb(43, 42, 51);
+}
+
+.Switch:checked + .Slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.darkTheme {
+  background-color: rgb(43, 42, 51);
+}
+
+.darkText {
+  color: #fff;
+}

@@ -1,0 +1,74 @@
+.scrollContainer {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.scrollContent {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+.stockItem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    animation: rotate 10s linear infinite;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+.stockItem .stockName {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.stockItem .price {
+    font-size: 1rem;
+}
+
+.stockItem .change {
+    font-size: 1rem;
+    color: green;
+}
+
+.stockItem.negative .change {
+    color: red;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerEx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh; 
+    box-sizing: border-box;
+}
+
+
+h2 {
+    color: #323232;
+}
+
+.cryptoInputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cryptoSelectContainer,
+.amountInputContainer,
+.exchangeResultContainer {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.cryptoSelect {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.amountInput {
+    width: 80px; 
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+    height: 9px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: bllack;
+}
+
+h2 {
+    color: #cccccc;
+    margin-bottom: 90px;
+}
+
+.exchangeResult {
+    color: #4caf50;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+}
+.swapButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.swapButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}

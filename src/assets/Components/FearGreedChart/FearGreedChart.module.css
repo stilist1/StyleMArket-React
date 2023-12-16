@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.chart_container {
+    margin-right: 90px;
+}
+
+.fear_label,
+.crypto_label {
+    color: #666666;
+    text-align: center;
+}
