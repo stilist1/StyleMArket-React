@@ -10,7 +10,7 @@ You will also need to obtain the YFAPI (Your Favorite API) and add it to the fil
 
 ## Screenshots
 ### Home Page
-![Home Page](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot1.png)
+![Home Page](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/Screenshot1.png)
 The home page displays a confirmation prompt for accepting the terms and conditions.
 
 ### Main Screen
