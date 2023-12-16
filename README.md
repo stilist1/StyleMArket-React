@@ -10,19 +10,19 @@ You will also need to obtain the YFAPI (Your Favorite API) and add it to the fil
 
 ## Screenshots
 ### Home Page
-![Home Page]([src\Screenshots\Screenshot1.png](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot1.png))
+![Home Page](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot1.png)
 The home page displays a confirmation prompt for accepting the terms and conditions.
 
 ### Main Screen
-![Main Screen]([src\Screenshots\Screenshot2.png](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot2.png))
+![Main Screen](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot2.png)
 The main screen features a list of stocks, a fear and greed index graph, and a list of the top 15 cryptocurrencies.
 
 ### Cryptocurrency Exchange Window
-![Cryptocurrency Exchange]([src\Screenshots\Screenshot3.png](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot3.png))
+![Cryptocurrency Exchange](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot3.png)
 The cryptocurrency exchange window allows users to obtain cryptocurrency prices.
 
 ## About Us
-![About Us]([src\Screenshots\Screenshot4.png](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot4.png))
+![About Us](https://github.com/stilist1/StyleMarket-React/blob/main/src/Screenshots/ScreenShot4.png)
 
 ## License
 This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
